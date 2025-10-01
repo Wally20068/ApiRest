@@ -13,24 +13,16 @@ Se implementaron las operaciones CRUD (Crear, Leer, Actualizar, Eliminar) y se p
    cd mi-api-estudiantes
 Instalar dependencias:
 
-bash
-Copy code
-npm install
-(Opcional) Instalar nodemon para desarrollo:
 
-bash
-Copy code
+npm install
+
 npm install --save-dev nodemon
 🚀 Ejecución
 Modo normal:
 
-bash
-Copy code
 npm start
 Modo desarrollo (con nodemon):
 
-bash
-Copy code
 npm run dev
 El servidor se ejecuta en:
 👉 http://localhost:3000
@@ -41,8 +33,6 @@ Lista todos los estudiantes registrados.
 
 Respuesta ejemplo:
 
-json
-Copy code
 [
   { "id": 1, "nombre": "Ana", "edad": 20, "correo": "ana@mail.com" }
 ]
@@ -51,8 +41,6 @@ Crea un nuevo estudiante.
 
 Body JSON:
 
-json
-Copy code
 {
   "nombre": "Ana",
   "edad": 20,
@@ -60,8 +48,6 @@ Copy code
 }
 Respuesta ejemplo:
 
-json
-Copy code
 {
   "id": 1,
   "nombre": "Ana",
@@ -75,15 +61,11 @@ URL: /estudiantes/1
 
 Body JSON (ejemplo):
 
-json
-Copy code
 {
   "edad": 21
 }
 Respuesta ejemplo:
 
-json
-Copy code
 {
   "id": 1,
   "nombre": "Ana",
@@ -102,8 +84,6 @@ Las rutas fueron probadas con Postman y Thunder Client.
 En la carpeta docs/ se encuentran las capturas de las pruebas exitosas de cada endpoint.
 
 📂 Estructura del proyecto
-pgsql
-Copy code
 mi-api-estudiantes/
 ├── index.js
 ├── package.json
