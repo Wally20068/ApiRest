@@ -79,9 +79,6 @@ URL: /estudiantes/1
 
 Respuesta: Código 204 No Content
 
-🧪 Pruebas
-Las rutas fueron probadas con Postman y Thunder Client.
-En la carpeta docs/ se encuentran las capturas de las pruebas exitosas de cada endpoint.
 
 📂 Estructura del proyecto
 mi-api-estudiantes/
@@ -89,7 +86,7 @@ mi-api-estudiantes/
 ├── package.json
 ├── package-lock.json
 ├── .gitignore
-└── docs/    (capturas de Postman/Thunder Client)
+└── docs/    
 📜 Tecnologías usadas
 Node.js (v20.x o LTS estable)
 
